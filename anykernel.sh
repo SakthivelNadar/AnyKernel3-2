@@ -4,23 +4,23 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=StormBreaker kernel for yogurt
+kernel.string=StormBreaker kernel for lava
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=E7746
-device.name2=E7746
-device.name3=E6746
-device.name4=E6746
-device.name5=yogurt
+device.name1=lancelot
+device.name2=lava
+device.name3=galahad
+device.name4=shiva
+device.name5=lancelot
 supported.versions=
 supported.patchlevels=
 '; } # end properties
 
 # shell variables
-block=/dev/block/by-name/boot;
+block=/dev/block/platform/bootdevice/by-name/boot;
 is_slot_device=0;
 ramdisk_compression=auto;
 
